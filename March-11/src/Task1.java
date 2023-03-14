@@ -26,7 +26,7 @@ public class Task1 {
             stocks[i] = scanner.nextInt();
         }
         
-        System.out.println("--------------------------");
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
         System.out.println("Details of the products:");
         for (int i = 0; i < numProducts; i++) {
             double cost = unitPrices[i] * quantities[i];
@@ -42,7 +42,7 @@ public class Task1 {
                 System.out.println("Total Cost: " + cost);
                 System.out.println("Remaining Stocks: " + (stocks[i] - quantities[i]));
             }
-            System.out.println("--------------------------");
+            System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
         }
     }
 }
